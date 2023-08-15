@@ -40,6 +40,10 @@ function CreateForm(props) {
     props.setShow(false); // set to dont show the create account form after submit
   }
 
+  function btnClasses() {
+    let btnColor = props.btnColor ? props.btnColor : "light";
+    return "btn" + "btn-" + btnColor + " mt-4";
+  }
   return (
     <>
       <label className="mb-1">Name</label>

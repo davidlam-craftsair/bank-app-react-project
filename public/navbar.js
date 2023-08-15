@@ -62,7 +62,7 @@ function Navbar() {
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="#"
+                href="#showBalance"
                 onClick={loadBalance}
                 id="balance"
               >

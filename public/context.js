@@ -3,6 +3,8 @@ const Link = ReactRouterDOM.Link;
 const HashRouter = ReactRouterDOM.HashRouter;
 const UserContext = React.createContext(null);
 
+const CurrentUser = "David Lam";
+
 function createInput({ type, className, placeholder, value, handleChange }) {
   return (
     <input
